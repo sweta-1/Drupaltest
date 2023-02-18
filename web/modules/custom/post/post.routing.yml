@@ -1,0 +1,7 @@
+post.post:
+  path: '/post'
+  defaults:
+    _controller: '\Drupal\post\Controller\PostController::post'
+    _title: 'Post'
+  requirements:
+    _permission: 'administer news feeds'

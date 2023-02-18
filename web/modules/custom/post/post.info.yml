@@ -1,0 +1,4 @@
+name: Post
+description: Custom Post Module
+type: module
+core_version_requirement: ^8 || ^9
